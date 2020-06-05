@@ -1,0 +1,15 @@
+#q1a
+a = input()
+
+for i in reversed(a):
+  print(i, end="")
+
+
+#q2a
+a = input()
+l = a.split(" ")
+
+for i in range(0,len(l)):
+  for j in reversed(l[i]):
+    print(j,end="")
+  print(end=" ")
